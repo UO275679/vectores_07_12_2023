@@ -13,10 +13,13 @@ int main() {
     Vector den(plantaDen,3);
     Fdt planta(num,den);
 
-  //  planta.printFdt();
+    planta.printFdt();
 
     double yk=0;
     double xk=1;
+
+
+    cout << "Modificacion desde el clone de Github" << endl;
 
     fstream archivo;        // declaración del archivo , pertenece a la clase fstream
     archivo.open("resultados.txt",fstream::out);
