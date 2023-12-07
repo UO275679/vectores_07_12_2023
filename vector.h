@@ -5,7 +5,7 @@ class Vector
 {
 public:
     Vector(const double *, int );
-//    Vector(const Vector &vector);
+    Vector(const Vector &vector);
 
     void shiftVector(void);
     double productoEscalar(Vector mul2);

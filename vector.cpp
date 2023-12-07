@@ -9,14 +9,14 @@ Vector::Vector(const double *vector, int tam){
     for (int i= 0 ; i < tam; i++)
         vector_[i] = vector[i];
 }
-/*
+
 Vector::Vector(const Vector &vector){
     vector_ = new double [vector.dim_];
     dim_ = vector.dim_;
     for (int i= 0 ; i < dim_; i++)
         vector_[i] = vector.vector_[i];
 }
-*/
+
 
 void Vector::setValueInitial( double valueInitial ){
     for (int i= 0 ; i < dim_; i++)
