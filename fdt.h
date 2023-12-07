@@ -7,7 +7,7 @@ public:
     Fdt (Vector &num, Vector &den);
     ~Fdt();
     double obtenerSalidaFdt(double xk_p);
- //   void printFdt(void);
+    void printFdt(void);
 private:
     Vector num_;
     Vector den_;

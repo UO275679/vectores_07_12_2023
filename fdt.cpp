@@ -12,14 +12,14 @@ Fdt::Fdt (Vector &num, Vector &den)   : num_(num),
 
 Fdt::~Fdt() {
 }
-/*
+
 void Fdt::printFdt(void) {
     cout<<"Numerador: ";
     num_.printVector();
     cout<<"Denominador: ";
     den_.printVector();
 }
-*/
+
 double Fdt::obtenerSalidaFdt(double xk_p) {
     double salida;
     vectorYk_.shiftVector();
